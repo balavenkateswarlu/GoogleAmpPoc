@@ -1,0 +1,217 @@
+      <!--- sidebar Metadata-->
+      <!---
+      {
+        "comment": "amp-sidebar needs to be the first element after the body tag, this is currently not possible the way examples are structured", 
+        "skipValidation": true
+      }
+      --->
+
+      <!--
+      #### Introduction
+
+      A sidebar provides a way to display meta content intended for temporary access (navigation links, buttons, menus, etc.). The sidebar can be revealed by a button tap while the main content remains visually underneath.
+    -->
+    <!-- -->
+
+    <!doctype html>
+    <html amp>
+    <head>
+      <meta charset="utf-8">
+      <link rel="canonical" href="<%host%>/components/amp-sidebar/">
+
+      <!-- #### Setup -->
+      <!--
+        Import the `amp-sidebar` component.
+      -->
+      <script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"></script>
+      <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
+      <script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js"></script>
+
+
+      <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+
+      <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+      <script async src="https://cdn.ampproject.org/v0.js"></script>
+
+      <style amp-custom>
+        body{
+          font-family:sans-serif;
+          line-height:1.5;
+        }
+        .carousel {
+          background: #eee;
+          margin: 0px 0px;
+        }
+
+          .carousel .slide > amp-img > img{
+          object-fit: contain;
+        }
+        .carousel .caption {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          padding: 8px;
+          background: rgba(0, 0, 0, 0.6);
+          color: #ddd;
+          font-size: smaller;
+          max-height: 30%;
+        }
+
+        amp-sidebar {
+          width: 250px;
+          padding-right: 10px;
+        }
+        .amp-sidebar-image {
+          line-height: 100px;
+          vertical-align:middle;
+        }
+        .amp-close-image {
+         top: 15px;
+         left: 225px;
+         cursor: pointer;
+       }
+       li {
+        margin-bottom: 20px;
+        list-style: none;
+      }
+      button {
+        margin-left: 20px;
+      }
+      #product-header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between; 
+        padding:10px 15px;
+      }
+      #product-footer {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between; 
+        padding:10px 15px;
+      }
+      .padding{
+        margin:  15px;
+      }
+          #sidebar{
+              background:#007bcd ; color:#fff;
+          }
+          #bemore{
+              background: #f0f2f5;display: flex;
+          }
+          h2,h3,h5{
+              font-weight: 100; color:#475055;
+          }
+          .bmimage{
+              margin-right:30px;
+          }
+          .bmdiv{
+              background: #4fc6f8; margin: -45px 0px 45px 30px; position: relative;
+          }
+          .bmdiv > div ,.domore > div >div {
+              padding:5px 60px; color:#fff;
+          }
+          .sdbox{
+              background-color: #475055; height: 40px; width: 40px; margin-left:-60px ; margin-top:23px;float:left; position: absolute;
+          }
+          .sdbox > amp-img{
+              margin: 11px 13px ;
+          }
+          .domore > div{
+            background: #17c4bb ;
+          }
+          #product-footer{
+              background: #4fc6f8;
+          }
+        #product-footer > p{
+          color: #fff; font-size: .929em; float: left; height: 27px; line-height: 27px;
+          }
+          #domore{
+              margin-bottom:45px;
+          }
+    </style>
+    </head>
+    <body>
+       <amp-sidebar id='sidebar' layout="nodisplay" side="right">
+        <ul>
+          <li on="tap:sidebar.close">X</li>
+          <li>About</li>
+          <li> Services</li>
+          <li> clients</li>
+          <li> contacts</li>
+        </ul>
+      </amp-sidebar>
+
+      <div id="product-header">
+        <amp-img src="img/logo_mobile.png" width="79" height="29" ></amp-img>
+        <amp-img on='tap:sidebar.toggle' src="img/hamburger.png" width="25" height="20" alt="|||"></amp-img>
+      </div>
+
+          <amp-carousel class="carousel" layout="responsive" width="400" height="120" type="slides">
+        <div class="slide">
+          <amp-img src="img/image1.jpg" layout="fill"></amp-img>
+          <div class="caption">
+    Infosys emerges as a leader for
+                                    distributed agile delivery in the Ovum Decision Matrix 2016
+          </div>
+        </div>
+
+        <div class="slide">
+          <amp-img src="img/image2.jpg" layout="fill"></amp-img>
+          <div class="caption">
+    Sustainability Report 2015-16&#58;
+                                        Creating a Smart, Sustainable World
+          </div>
+        </div>
+
+        <div class="slide">
+          <amp-img src="img/image3.jpg" layout="fill"></amp-img>
+          <div class="caption">
+    Commerzbank Selects Infosys to Renew
+                                            its Investment Banking IT Landscape
+          </div>
+        </div>
+      </amp-carousel>
+
+      <div id="bemore" >
+        <div class="padding">
+          <h2 >Be More</h2>
+          <amp-img src="img/bemore-zero-distance.png" class="bmimage" width="330" height="175" layout="responsive" ></amp-img>
+          <div class="bmdiv"  layout="responsive">
+            <div >
+                <div class="sdbox">
+                    <amp-img src="img/article-icon.png" width="14" height="18"></amp-img>
+                </div>
+              <h3>Zero Distance: How We Innovate</h3>
+              <h5>We seek to innovate in a way that minimizes the gap between our offerings and client needs, until both are at zero distance from one another. For us, innovation is a quest for a client problem that is as yet unarticulated, or finding that surprisingly innovative way to execute a solution to a known problem.</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div  id="domore" class="padding" >
+      <h2 >Do More</h2>
+      <div >
+        <div>
+        <div class="sdbox">
+            <amp-img src="img/video-icon.png" width="20" height="14"></amp-img>
+        </div>
+          <h3 >AiKiDo: Next-Generation Services in Design Thinking, Platforms and Knowledge-Based IT</h3>
+          <h5 >Services for non-disruptive renewal and simplification of existing landscapes; introduction of new offerings in a dynamic environment, and creating a culture of innovation.</h5>
+        </div>
+      </div>
+      <amp-youtube width="480" height="270" layout="responsive" data-videoid="9frq6eC3fts" ></amp-youtube>
+    </div>
+
+    <div id="product-footer">
+      <p >Copyright © 2016 Infosys Limited</p>
+    </div>
+
+
+
+    </body>
+    </html>

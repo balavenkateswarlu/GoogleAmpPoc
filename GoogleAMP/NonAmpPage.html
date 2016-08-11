@@ -1,0 +1,217 @@
+<!DOCTYPE html >
+<html>
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+	<link rel="stylesheet" type="text/css" href="all.min.css">
+	
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <title>Infosys - Business Technology Consulting</title>
+	<style>
+
+		.carousel-inner>.item>img,.carousel-inner>.item>a>img {
+			width: 100%;
+			margin: auto;
+		}
+
+		.sidenav {
+			height: 100%;
+			width: 0;
+			position: fixed;
+			z-index: 1;
+			top: 0;
+			right: 0;
+			background-color: #007bcd;
+			overflow-x: hidden;
+			transition: 0.5s;
+			/* padding-top: 60px; */
+		}
+
+		.sidenav a {
+			padding: 8px 8px 8px 32px;
+			text-decoration: none;
+			/* font-size: 25px; */
+			color: #fff;
+			display: block;
+			transition: 0.3s;
+			font-family: MyriadPro-Regular;
+		}
+
+		.sidenav a:hover,.offcanvas a:focus {
+			color: #f1f1f1;
+		}
+
+		.sidenav .closebtn {
+			position: absolute;
+			top: 0;
+			right: 25px;
+			font-size: 36px;
+			margin-left: 50px;
+		}
+
+		@media screen and (max-height: 450px) {
+			.sidenav {
+				padding-top: 15px;
+			}
+			.sidenav a {
+				font-size: 18px;
+			}
+		}
+	</style>
+
+	<script>
+		function openNav() {
+			document.getElementById("mySidenav").style.width = "250px";
+		}
+
+		function closeNav() {
+			document.getElementById("mySidenav").style.width = "0";
+		}
+	</script>
+	<script>
+		$(document).ready(function() {
+			$(".infy-r-menu_icon").click(function() {
+				$(".infy-r-slidingHamMenu").show();
+			});
+		});
+	</script>
+
+</head>
+<body>
+	<header class="infy-r-deskHeader infy-r-nav-down">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12">
+					<img  src="img/logo_mobile.png" style="margin-top:20px" />
+					<div class="pull-right">
+						<ul class="pull-right infy-r-icons_right">
+							<li><span
+								style="font-size: 30px; cursor: pointer; float: right"
+								onclick="openNav()">&#9776; </span></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div id="mySidenav" class="sidenav">
+				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+				<a href="#">About</a> <a href="#">Services</a> <a href="#">Clients</a>
+				<a href="#">Contact</a>
+			</div>
+		</header>
+
+
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+			<!-- Indicators -->
+			<ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
+				<li data-target="#myCarousel" data-slide-to="2"></li>
+			</ol>
+
+			<!-- Wrapper for slides -->
+			<div class="carousel-inner" role="listbox">
+				<div class="item active">
+					<img src="img/image1.jpg" />
+					<div class="container">
+						<div class="carousel-caption">
+							<h3 class="infy-r-h3">Infosys emerges as a leader for
+								distributed agile delivery in the Ovum Decision Matrix 2016</h3>
+							</div>
+						</div>
+					</div>
+
+					<div class="item">
+						<img
+						src="img/image2.jpg">
+						<div class="container">
+							<div class="carousel-caption">
+								<h3 class="infy-r-h3">Sustainability Report 2015-16&#58;
+									Creating a Smart, Sustainable World</h3>
+								</div>
+							</div>
+						</div>
+
+						<div class="item">
+							<img
+							src="img/image3.jpg"
+							alt="Flower">
+							<div class="container">
+								<div class="carousel-caption">
+									<h3 class="infy-r-h3">Commerzbank Selects Infosys to Renew
+										its Investment Banking IT Landscape</h3>
+									</div>
+								</div>
+							</div>
+
+							<!-- Left and right controls -->
+							<a class="left carousel-control" href="#myCarousel" role="button"
+							data-slide="prev"> <span
+							class="glyphicon glyphicon-chevron-left" aria-hidden="true"
+							style="top: 60%"></span> <span class="sr-only">Previous</span>
+						</a> <a class="right carousel-control" href="#myCarousel" role="button"
+						data-slide="next"> <span
+						class="glyphicon glyphicon-chevron-right" aria-hidden="true"
+						style="top: 60%"></span> <span class="sr-only">Next</span>
+					</a>
+				</div>
+			
+
+			</div>
+
+
+
+			<section id="section2">
+				<div style="background: #f0f2f5;display: flex;">
+					<div class="container">
+						<h2 style="font-weight: 100; color:#475055;">Be More</h2>
+						<img src="img/bemore-zero-distance.png"  layout="responsive" style=" width: 92%;"></img>
+						<div  style="background: #4fc6f8; margin: -45px 0px 45px 30px; position: relative;" layout="responsive">
+							<div style="padding:5px 60px; color:#fff;">
+								<div style="background-color: #475055; height: 40px; width: 40px; margin-left:-60px ; margin-top:23px;float:left; position: absolute;">
+									<img src="img/article-icon.png" width="14" height="18" style="margin: 11px 13px ;"></img>
+								</div>
+								<h3 style="font-weight: 100;line-height:1.5 !important;">Zero Distance: How We Innovate</h3>
+								<h5 style="font-weight: 100;line-height:1.5 !important;">We seek to innovate in a way that minimizes the gap between our offerings and client needs, until both are at zero distance from one another. For us, innovation is a quest for a client problem that is as yet unarticulated, or finding that surprisingly innovative way to execute a solution to a known problem.</h5>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</section>
+
+
+
+
+			<section id="section3" class="container" style="margin-bottom: 45px;">
+				<h2 style="font-weight: 100;color:#475055;">Do More</h2>
+				
+				<div style="background: #17c4bb ;">
+					<div style="padding: 5px 60px; color:#fff;">
+						<div style="background-color: #475055; height: 40px; width: 40px; margin-left:-60px ; margin-top:23px;float:left; position: absolute;">
+							<img src="img/video-icon.png" width="20" height="14" style="margin: 13px 10px ;"></amp>
+						</div>
+						<h3 style="font-weight: 100;line-height:1.5 !important;">AiKiDo: Next-Generation Services in Design Thinking, Platforms and Knowledge-Based IT</h3>
+						<h5 style="font-weight: 100;line-height:1.5 !important;">Services for non-disruptive renewal and simplification of existing landscapes; introduction of new offerings in a dynamic environment, and creating a culture of innovation.</h5>
+					</div>
+				</div>
+				<iframe style="width:100%; height:100%; " src="https&#58;//www.youtube.com/embed/9frq6eC3fts?rel=0&amp;iv_load_policy=3"></iframe>
+
+			</section>
+
+
+
+
+
+
+			<div  style="background: #4fc6f8;     width: 100%;     color: #fff; font-size: 1em;">
+			<p style="padding: 15px; margin: 0px;">Copyright © 2016 Infosys Limited</p>
+		</div>
+		</body>
+		</html>

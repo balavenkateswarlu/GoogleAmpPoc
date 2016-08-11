@@ -1,0 +1,441 @@
+header.infy-r-deskHeader, header.infy-r-mobileHeader {
+    width: 100%;
+    height: 70px;
+    background: #fff;
+    position: relative;
+    top: 0;
+    z-index: 99999;
+    transition: top .2s ease-in-out 0s;
+}
+.infy-r-logo {
+    background: url(https://www.infosys.com/sitecollectionimages/responsive/logo.png) no-repeat;
+    width: 141px;
+    height: 53px;
+    float: left;
+    margin: 13px 0 4px;
+}
+.pull-right {
+    float: right!important;
+}
+.infy-r-menu_ul {
+    float: left;
+    margin: 17px 0 0;
+    padding: 0;
+}
+.infy-r-menu_ul li {
+    display: inline-block;
+}
+
+.infy-r-menu_ul li a {
+    font-size: 1.714em;
+    font-weight: 400;
+    color: #475055;
+    padding: 0 60px;
+    /* -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s; */
+    transition: .5s;
+}
+
+
+input, button {
+    min-width: 0em !important;
+}
+button, input, select[multiple], textarea {
+    background-image: none;
+}
+button, input, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+.infy-r-icons_right {
+    margin: 18px 0 0;
+    padding: 0;
+}
+.infy-r-icons_right li {
+    display: inline-block;
+    position: relative;
+}
+li {
+   /* display: list-item;*/
+    text-align: -webkit-match-parent;
+}
+
+ul[class*='infy-r'] a, ul[class*='infy-r'] a:focus, ul[class*='infy-r'] a:hover {
+   /*  outline: 0; */
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+    color: #475055;
+    font-family: MyriadPro-Regular;
+}
+a, a:active, a:focus, a:hover, a:link, a:visited {
+    outline: 0!important;
+    -moz-outline-style: none;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+   /*  -moz-osx-font-smoothing: grayscale; */
+}
+img {
+    border: 0;
+    vertical-align: middle;
+}
+.infy-r-fullwidth_carousel .carousel-caption {
+    left: 15px;
+}
+
+.carousel-caption h3.infy-r-h3 {
+    /* font-size: 2.29em;
+    line-height: 55px; */
+    
+    font-size: 1.5em;
+    color: #fff;
+    margin: 10px 0;
+    text-align: left;
+    line-height: 18px;
+}
+div[class*=infy-r] {
+    font-family: MyriadPro-Regular;
+}
+.infy-r-cta-widget {
+    margin-top: 30px;
+    position: relative;
+}
+.infy-r-green-bg {
+    background: #17c4bb;
+}
+
+div[class*=infy-r] .infy-r-white {
+    color: #fff;
+}
+
+*, :after, :before {
+    /* -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box; */
+    box-sizing: border-box;
+}
+
+.infy-r-icon-wrap.infy-r-file-icon {
+    width: 41px;
+    height: 41px;
+}
+div[class*=infy-r] .infy-r-white {
+    color: #fff;
+}
+div[class*=infy-r] {
+    font-family: MyriadPro-Regular;
+}
+.infy-r-inner-wrap-leftIcon {
+    padding: 22px 50px 40px 60px!important;
+}
+.infy-r-inner-wrap {
+    position: relative;
+  /*   padding: 22px 50px 40px 40px!important; */
+    display: block;
+}
+.infy-r-inner-wrap .infy-r-icon-wrap.infy-r-alignLeft {
+    left: 0;
+    right: auto;
+}
+
+div[class*='infy-r'] a, div[class*='infy-r'] a:focus, div[class*='infy-r'] a:hover, ul[class*='infy-r'] a, ul[class*='infy-r'] a:focus, ul[class*='infy-r'] a:hover {
+   /*  outline: 0; */
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+    color: #475055;
+    font-family: MyriadPro-Regular;
+}
+a, a:active, a:focus, a:hover, a:link, a:visited {
+    outline: 0!important;
+    /* -moz-outline-style: none; */
+}
+.infy-r-icon-wrap {
+    background: #475055;
+   /*  color: #fff; */
+    position: absolute;
+    top: 30px;
+    /* left: 0; */
+    padding: 9px 0;
+    /* width: 40px;
+    height: 40px; */
+    text-align: center;
+    z-index: 1;
+}
+
+a {
+   /*  -webkit-transition: all .3s ease-in 0s;
+    -moz-transition: all .3s ease-in 0s; */
+    transition: all .3s ease-in 0s;
+}
+
+
+
+h2.infy-r-h2 {
+	
+    font-size: 1.5em;
+    line-height: 32px;
+    font-weight: 700;
+}
+h2.infy-r-h2 {
+    margin-bottom: 13px;
+}
+
+h1.infy-r-h1, h2.infy-r-h2 {
+    font-family: MyriadPro-Regular;
+ 
+}
+h1, h2, h3, h4, h5 {
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    display: block;
+    /* font-size: 1.5em; */
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    /* font-weight: bold; */
+}
+    
+.infy-r-inner-wrap .infy-r-icon-wrap.infy-r-alignLeft {
+    left: 0;
+    right: auto;
+}
+
+.infy-r-white-bg {
+    background: #fff;
+}
+
+.infy-r-footer {
+        width: 100%;
+    float: left;
+    padding: 0;
+    position: relative;
+    top: 550px;
+}
+.infy-r-footer_bottom {
+    width: 100%;
+    float: left;
+    background: #007bcd;
+}
+.infy-r-copyright {
+    height: 38px;
+    line-height: 38px;
+}
+.infy-r-copyright {
+    color: #bbdefb;
+    font-size: .929em;
+    float: left;
+    /* height: 27px;
+    line-height: 27px; */
+}
+
+.infy-r-slidingHamMenu {
+    width: 320px;
+}
+.infy-r-slidingHamMenu {
+    display: block;
+    position: fixed;
+    right: -320px;
+    top: 0;
+    bottom: 0;
+    width: 320px;
+    height: 100%;
+    background-color: #007bcd;
+    z-index: 9999999;
+    overflow: auto;
+    transition: all .4s ease 0s;
+    -webkit-overflow-scrolling: touch;
+}
+
+.infy-r-closeCont {
+    width: 100%;
+    padding: 10px;
+    text-align: right;
+}
+
+.infy-r-subMenu_ul {
+    width: 100%;
+    height: auto;
+    background: #007bcd;
+    padding: 0;
+    margin: 0;
+}
+
+.infy-r-subMenu_ul li.first {
+    border-top: 1px solid #4fc6f8;
+}
+div[class*='infy-r'] ul, div[class*='infy-r'] ul li {
+    list-style: none;
+    outline: none;
+}
+
+.infy-r-subMenu_ul li {
+    width: 100%;
+    position: relative;
+    float: left;
+}
+*, :after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.infy-r-subMenu_ul li a {
+    color: #fff;
+    font-size: 1.286em;
+    padding: 15px 30px;
+    display: block;
+}
+
+section h1.infy-r-h1 {
+    padding: 70px 0 0;
+}
+section h1.infy-r-h1 {
+    padding: 35px 0 0;
+}
+
+h1.infy-r-h1 {
+    font-size: 48px;
+    padding: 15px 0 0;
+}
+h1.infy-r-mbottom {
+    margin: 0 0 30px;
+}
+h1.infy-r-h1 {
+    font-size: 1.8em;
+}
+h1.infy-r-h1, h2.infy-r-h2 {
+    font-family: MyriadPro-Regular;
+    color: #475055;
+}
+.infy-r-full-width-tile {
+    position: relative;
+}
+.infy-r-img-contr {
+    padding-top: 30px;
+}
+
+.infy-r-b1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: auto;
+    width: 652px;
+    margin: 0;
+}
+.infy-r-inner-wrap-leftIcon {
+    padding: 22px 50px 40px 60px!important;
+}
+.infy-r-inner-wrap {
+    position: relative;
+    padding: 22px 50px 40px 40px!important;
+    display: block;
+}
+.infy-r-inner-wrap .infy-r-icon-wrap.infy-r-alignLeft {
+    left: 0;
+    right: auto;
+}
+.infy-r-icon-wrap.infy-r-file-icon {
+    width: 41px;
+    height: 41px;
+}
+div[class*=infy-r] p, h4.infy-r-h4 {
+    font-size: 16px;
+}
+div[class*=infy-r] p {
+    font-family: MyriadPro-Regular;
+    font-size: 1em;
+    line-height: 22px;
+    color: #475055;
+    margin: 0;
+}
+div[class*=infy-r-] .infy-r-read_more {
+    color: #fff;
+    text-decoration: underline;
+}
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+.infy-r-box-blue {
+    background-color: #4fc6f8;
+    color: #fff;
+}
+.infy-r-b1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: auto;
+    width: 280px;
+    margin: 0;
+}
+
+
+
+
+
+#header-2 {
+    width: 100%;
+    height: 50px;
+    z-index: 99;
+    transition: top 0.2s ease-in-out;
+    position: relative;
+    display: none;
+    top: 50px;
+}
+div[class*=infy-r] {
+    font-family: MyriadPro-Regular;
+}
+#careers, #header-2, .infy-r-position-relative {
+    position: relative;
+}
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.infy-r-main-page-head h2.infy-r-h2 {
+    margin: 0;
+    float: left;
+    opacity: .8;
+    font-size: 24px;
+    color: #f0f2f5;
+    line-height: 50px;
+    font-weight: 400;
+}
+div[class*='infy-r'] ul, div[class*='infy-r'] ul li {
+    list-style: none;
+    outline: none;
+}
+.infy-r-prod-sublist {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    float: right;
+    line-height: 50px;
+    transition: top .2s ease-in-out 0s;
+}
+.infy-r-prod-sublist li a, .infy-r-prod-sublist li a:hover, .infy-r-prod-sublist li a:link, .infy-r-prod-sublist li a:visited {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}

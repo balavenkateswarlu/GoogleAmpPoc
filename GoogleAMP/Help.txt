@@ -1,0 +1,3 @@
+Non Amp Page : https://amp-poc-2038d.firebaseapp.com/NonAmpPage.html
+
+AMP Page : https://amp-poc-2038d.firebaseapp.com/
